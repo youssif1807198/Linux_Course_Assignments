@@ -13,4 +13,10 @@ indent -kr pwd.c
 gcc -o pwd pwd.c
 ./pwd
 
+#mv utility
+indent -kr mv.c
+gcc -o mv mv.c
+mv 1.txt ../2.txt
+
+
 

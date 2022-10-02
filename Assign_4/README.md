@@ -7,3 +7,10 @@ gcc -o copy_paste copy_paste.c
 gcc -o print_user_input print_user_input.c
 ./print_user_input hello world
 
+#pwd utilty
+vim pwd.c
+indent -kr pwd.c
+gcc -o pwd pwd.c
+./pwd
+
+
